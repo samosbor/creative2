@@ -3,7 +3,7 @@ fetch(url, {
     mode: 'no-cors'
   })
 .then(function(response) {
-    return response.json();
+    return response.json()
 }).then(function(json) {	
     var count = 0;
     json.forEach(element => {
