@@ -1,9 +1,6 @@
 url = "https://cat-fact.herokuapp.com/facts/random?animal=cat&amount=7"
 fetch(url, {
-    mode: 'cors',
-    headers: {
-      'Access-Control-Allow-Origin':'*'
-    }
+    mode: 'cors'
   })
 .then(function(response) {
     return response.json();
